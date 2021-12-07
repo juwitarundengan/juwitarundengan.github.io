@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="id">
     <head >
@@ -190,10 +189,6 @@
               data-bind="css: { empty: !!getCartParam('summary_count') == false }, blockLoader: isLoading">
             <span class="counter-number">(<!-- ko text: getCartParam('summary_count') --><!-- /ko -->)</span>
             <span class="counter-label">
-            <!-- ko if: getCartParam('summary_count') -->
-                <!-- ko text: getCartParam('summary_count') --><!-- /ko -->
-                <!-- ko i18n: 'items' --><!-- /ko -->
-            <!-- /ko -->
             </span>
         </span>
     </a>
@@ -289,7 +284,7 @@
             </div>
         </div>
 </div><ul class="header links">		<li class="my-hm">
-            <span><a href="https://id.hm.com/id_id/customer/account/">My H&M</a></span>
+            <span><a href="https://fti.unai.edu/">FTI UNAI</a></span>
 		</li>
 		<!--<li class="my-hm-club">
             <span><a href="#">H&M Club</a></span>
@@ -315,8 +310,7 @@
                 }
             }
         }
-        </script>
-    
+        </script>   
 <div class="block block-customer-register" id="popup-mpdal-register">
     <div class="register-popup-inner">
         <form id="register-popup-form" class="form create account form-create-account" action="https://id.hm.com/id_id/customer/account/createpost/" method="post"  enctype="multipart/form-data" autocomplete="off">
@@ -353,18 +347,12 @@
                        <div class="validation-icon icon"></div>
             </div>
         </div>
-    
-                                        <!--            <div class="field choice newsletter">
-                                    <input type="checkbox" name="is_subscribed" title="Mendaftar&#x20;untuk&#x20;laporan" value="1" id="is_subscribed" class="checkbox">
-                                    <label for="is_subscribed" class="label"><span>Mendaftar untuk laporan</span></label>
-                                </div>-->
-                                                                    </fieldset>
+</fieldset>
             <fieldset class="fieldset create account" data-hasrequired="&#x2A;Kolom&#x20;wajib&#x20;diisi">
                 <div class="field email required inputwrapper">
                     <label for="email_address" class="label"><span>Email</span></label>
                     <div class="control">
                         <input type="email" name="email" id="popup-email_address" value="" title="Email" class="input-text" data-mage-init='{"mage/trim-input":{}}' data-validate="{required:true, 'hm-email-id-type-2':true ,'hm-email-id-type-3':true}"  autocomplete="off">
-<!--                        <i class="clearable__clear">&times;</i>-->
                         <span class="validation-icon icon " title="Kolom tidak valid" style="height: 40px;"></span>
                         <label class="sublabel" for="email">Masukkan alamat email</label>
                     </div>
@@ -378,8 +366,6 @@
                                data-validate="{'hm_password_require_1':true, 'validate-password-text':true}"
                                autocomplete="off">
                         <span class="validation-icon icon " title="Kolom tidak valid" style="height: 40px;"></span>
-<!--                        <i class="clearable__clear">&times;</i>-->
-                        <!--<button type="button" class="toggle-password-visibility js-toggle-password-visibility">SHOW</button>-->
                         <div class="input-info js-validtips" style="display: none;">
                                 <span class="validtip minchar">
                                  Minimum terdiri dari 8 karakter<span class="icon icon-valid"></span>
@@ -529,8 +515,7 @@
 <script>var customerJustRegistered = '0', uuid='';</script><li class = "hm-sign-out" style = "display: none;">
 <a href="https://id.hm.com/id_id/customer/account/logout/">Keluar</a>
 </li>
-<li class="authorization-link join hm-sign-in">
-Masuk Akun/Bergabung</li>
+<li href="https://unai.edu/">Universitas Advent Indonesia</li>
 
  <li class="switcher language switcher-language" data-ui-id="language-switcher" id="switcher-language">
     <strong class="label switcher-label"><span>Language</span></strong>
@@ -666,7 +651,7 @@ Masuk Akun/Bergabung</li>
     });
 </script></div><div class="header-content-middle">    <div class="sections nav-sections">
                 <div class="section-items nav-sections-items" data-mage-init='{"tabs":{"openedState":"active"}}'>
-                                            <div class="section-item-title nav-sections-item-title" data-role="collapsible">
+                <div class="section-item-title nav-sections-item-title" data-role="collapsible">
                     <a class="nav-sections-item-switch" data-toggle="switch" href="#store.menu">Menu</a>
                 </div>
                 <div class="section-item-content nav-sections-item-content" id="store.menu" data-role="content">
@@ -674,29 +659,24 @@ Masuk Akun/Bergabung</li>
 <div class="topnav parbase">
     <nav class="primary-menu">
         <ul>
-        			            <li class="main-menu-text">
-                <a  href="https://id.hm.com/id_id/ladies.html">Wanita</a>
-                                    <div class="primary-menu-sub-menu">
-                        <div class="primary-menu-sub-menu-inner">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <div class="primary-menu-categories col1">
-                                	
-                                    <div class="primary-menu-category ">
-                                        <div class="sub-sub-heading">New Arrivals</div>
-                                        <ul>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/ladies/new-arrivals/clothes.html">
-                                                Pakaian</a>
-                                            </li>
-                                                                                </ul>
-                                    </div>
-                                	
-                                    <div class="primary-menu-category ">
-                                        <div class="sub-sub-heading">DISKON & PENAWARAN</div>
-                                        <ul>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/ladies/offers/sale-up-to-50-off-id.html">
-                                                Sale up to 50% off</a>
-                                            </li>
+        		<li class="main-menu-text">
+                <a  href="index.html">Index</a>
+                <div class="primary-menu-sub-menu">
+                <div class="primary-menu-sub-menu-inner"> <div class="primary-menu-categories col1">
+                <div class="primary-menu-category ">
+                <div class="sub-sub-heading">New Arrivals</div>
+        <ul>
+        <li>
+                <a href="">Pakaian</a>
+        </li>
+</ul>
+</div>
+        <div class="primary-menu-category ">
+            <div class="sub-sub-heading">DISKON & PENAWARAN</div>
+            <ul>
+                <li>
+                    <a href="">Sale up to 50% off</a>
+                </li>
                                                                                     <li>
                                                 <a href="https://id.hm.com/id_id/ladies/offers/new-basic-recruits-from-idr-129-900.html">
                                                 New (basic) recruits from IDR 129,900</a>
@@ -893,528 +873,88 @@ Masuk Akun/Bergabung</li>
                     </div>
                             </li>
         			            <li class="main-menu-text">
-                <a  href="https://id.hm.com/id_id/men.html">Pria</a>
+                <a  href="biodata.html">Biodata</a>
                                     <div class="primary-menu-sub-menu">
                         <div class="primary-menu-sub-menu-inner">
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     <div class="primary-menu-categories col1">
                                 	
-                                    <div class="primary-menu-category ">
-                                        <div class="sub-sub-heading">New Arrivals</div>
-                                        <ul>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/new-arrivals/clothes.html">
-                                                Pakaian</a>
-                                            </li>
-                                                                                </ul>
-                                    </div>
-                                	
-                                    <div class="primary-menu-category ">
-                                        <div class="sub-sub-heading">DISKON & PENAWARAN</div>
-                                        <ul>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/offers/sale-up-to-50-off-id.html">
-                                                Sale up to 50% off</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/offers/all-over-prints-from-idr-179-900.html">
-                                                All over prints from IDR 179,900</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/offers/all-trousers-from-idr-349-900.html">
-                                                All trousers from IDR 349,900</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/offers/basic-needs-from-idr-79-900.html">
-                                                Basic needs from IDR 79,900</a>
-                                            </li>
-                                                                                </ul>
-                                    </div>
-                                	
-                                    <div class="primary-menu-category ">
-                                        <div class="sub-sub-heading">Campaigns</div>
-                                        <ul>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/campaigns/the-printed-sweater-id.html">
-                                                The printed sweater</a>
-                                            </li>
-                                                                                </ul>
-                                    </div>
-                                	
-                                    <div class="primary-menu-category ">
-                                        <div class="sub-sub-heading">Trending Now</div>
-                                        <ul>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/trending-now/the-perfect-gift-id.html">
-                                                The perfect gift</a>
-                                            </li>
-                                                                                </ul>
-                                    </div>
-                                                                </div> 
-                                                                                                                            <div class="primary-menu-categories col2">
-                                	
-                                    <div class="primary-menu-category ">
-                                        <div class="sub-sub-heading">Shop by Product</div>
-                                        <ul>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/shop-by-product/view-all.html">
-                                                Lihat Semua</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/shop-by-product/t-shirts-vests.html">
-                                                Kaos & Kaus Oblong</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/shop-by-product/basics.html">
-                                                Basics</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/shop-by-product/hoodies-sweatshirts.html">
-                                                Hoodies & Sweatshirt</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/shop-by-product/trousers.html">
-                                                Celana</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/shop-by-product/shirts.html">
-                                                Kemeja</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/shop-by-product/jeans.html">
-                                                Jeans</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/shop-by-product/jackets-coats.html">
-                                                Jacket & Coat</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/shop-by-product/shorts.html">
-                                                Celana Pendek</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/shop-by-product/sportswear.html">
-                                                Baju Olahraga</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/shop-by-product/underwear.html">
-                                                Pakaian Dalam</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/shop-by-product/lounge-wear.html">
-                                                Baju Santai</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/shop-by-product/socks.html">
-                                                Kaos Kaki</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/shop-by-product/swimwear.html">
-                                                Baju Renang</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/shop-by-product/shoes.html">
-                                                Sepatu</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/shop-by-product/accessories.html">
-                                                Aksesori</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/shop-by-product/cardigans-jumpers.html">
-                                                Cardigan & Jumper</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/shop-by-product/blazers-suits.html">
-                                                Blazer & Pakaian Formal</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/shop-by-product/conscious-sustainable-style.html">
-                                                Conscious - Gaya Ramah Lingkungan</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/shop-by-product/premium-quality.html">
-                                                Premium Quality</a>
-                                            </li>
-                                                                                </ul>
-                                    </div>
-                                                                </div> 
-                                                                                                                            <div class="primary-menu-categories col3">
-                                	
-                                    <div class="primary-menu-category ">
-                                        <div class="sub-sub-heading">Shop by Concept</div>
-                                        <ul>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/shop-by-concept/trend.html">
-                                                Trend</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/shop-by-concept/divided.html">
-                                                Divided</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/shop-by-concept/basics.html">
-                                                Basics</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/shop-by-concept/hmman.html">
-                                                H&M Man</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/shop-by-concept/modernclassic.html">
-                                                Modern Classic</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/shop-by-concept/logg.html">
-                                                L.O.G.G.</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/shop-by-concept/denim.html">
-                                                Denim</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/men/shop-by-concept/hm-edition.html">
-                                                H&M EDITION</a>
-                                            </li>
-                                                                                </ul>
-                                    </div>
-                                                                </div> 
-                            
-                        </div>
-                    </div>
+                                    
                             </li>
         			            <li class="main-menu-text">
-                <a  href="https://id.hm.com/id_id/divided.html">Divided</a>
-                                    <div class="primary-menu-sub-menu">
-                        <div class="primary-menu-sub-menu-inner">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <div class="primary-menu-categories ">
-                                	
-                                    <div class="primary-menu-category ">
-                                        <div class="sub-sub-heading">New Arrivals</div>
-                                        <ul>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/divided/view-all/clothes.html">
-                                                Pakaian</a>
-                                            </li>
-                                                                                </ul>
-                                    </div>
-                                                                </div> 
-                                                                                                                            <div class="primary-menu-categories col1">
-                                	
-                                    <div class="primary-menu-category ">
-                                        <div class="sub-sub-heading">DISKON & PENAWARAN</div>
-                                        <ul>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/divided/offers/sale-up-to-50-off-id.html">
-                                                Sale up to 50% off</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/divided/offers/basics-from-idr-69-900.html">
-                                                Basics from IDR 69,900</a>
-                                            </li>
-                                                                                </ul>
-                                    </div>
-                                	
-                                    <div class="primary-menu-category ">
-                                        <div class="sub-sub-heading">Campaigns</div>
-                                        <ul>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/divided/campaigns/graphic-knits-id.html">
-                                                Graphic knits </a>
-                                            </li>
-                                                                                </ul>
-                                    </div>
-                                	
-                                    <div class="primary-menu-category ">
-                                        <div class="sub-sub-heading">Trending Now</div>
-                                        <ul>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/divided/trending-now/teens-style-id.html">
-                                                Teen's style</a>
-                                            </li>
-                                                                                </ul>
-                                    </div>
-                                                                </div> 
-                                                                                                                            <div class="primary-menu-categories col2">
-                                	
-                                    <div class="primary-menu-category ">
-                                        <div class="sub-sub-heading">Shop by Product</div>
-                                        <ul>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/divided/shop-by-product/view-all.html">
-                                                Lihat semua</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/divided/shop-by-product/dresses-jumpsuits.html">
-                                                Dresses & Jumpsuits</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/divided/shop-by-product/tops.html">
-                                                Atasan</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/divided/shop-by-product/hoodies-sweatshirts.html">
-                                                Hoodies & Sweatshirt</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/divided/shop-by-product/shirts-blouses.html">
-                                                Kemeja & Blus</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/divided/shop-by-product/jackets-blazers.html">
-                                                Jackets & Blazers</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/divided/shop-by-product/trousers.html">
-                                                Celana</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/divided/shop-by-product/accessories.html">
-                                                Aksesori</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/divided/shop-by-product/shorts.html">
-                                                Celana Pendek</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/divided/shop-by-product/jeans.html">
-                                                Jeans</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/divided/shop-by-product/skirts.html">
-                                                Rok</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/divided/shop-by-product/shoes.html">
-                                                Sepatu</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/divided/shop-by-product/basics.html">
-                                                Basics</a>
-                                            </li>
-                                                                                </ul>
-                                    </div>
-                                                                </div> 
-                            
-                        </div>
-                    </div>
-                            </li>
-        			            <li class="main-menu-text">
-                <a  href="https://id.hm.com/id_id/kids.html">Anak-Anak</a>
-                                    <div class="primary-menu-sub-menu">
-                        <div class="primary-menu-sub-menu-inner">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <div class="primary-menu-categories col1">
-                                	
-                                    <div class="primary-menu-category ">
-                                        <div class="sub-sub-heading">New Arrivals</div>
-                                        <ul>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/kids/new-arrivals/clothes.html">
-                                                Pakaian</a>
-                                            </li>
-                                                                                </ul>
-                                    </div>
-                                	
-                                    <div class="primary-menu-category ">
-                                        <div class="sub-sub-heading">DISKON & PENAWARAN</div>
-                                        <ul>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/kids/offers/sale-up-to-50-off-id.html">
-                                                Sale up to 50% off</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/kids/offers/dresses-skirts-from-idr-79-900.html">
-                                                Dresses & Skirts from IDR 79,900</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/kids/offers/pyjamas-from-idr-149-900.html">
-                                                Pyjamas from IDR 149,900</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/kids/offers/hoodies-sweatshirt-from-idr-149-900.html">
-                                                Hoodies & Sweatshirt from IDR 149,900</a>
-                                            </li>
-                                                                                </ul>
-                                    </div>
-                                	
-                                    <div class="primary-menu-category ">
-                                        <div class="sub-sub-heading">Campaigns</div>
-                                        <ul>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/kids/campaigns/the-perfect-gift-id.html">
-                                                The perfect gift</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/kids/campaigns/kidswear-carnival-id.html">
-                                                Kidswear carnival</a>
-                                            </li>
-                                                                                </ul>
-                                    </div>
-                                	
-                                    <div class="primary-menu-category ">
-                                        <div class="sub-sub-heading">Trending Now</div>
-                                        <ul>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/kids/trending-now/cartoon-and-comics-id.html">
-                                                Cartoon and Comics</a>
-                                            </li>
-                                                                                </ul>
-                                    </div>
-                                                                </div> 
-                                                                                                                            <div class="primary-menu-categories col2">
-                                	
-                                    <div class="primary-menu-category ">
-                                        <div class="sub-sub-heading">Shop by Product</div>
-                                        <ul>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/kids/shop-by-product/view-all.html">
-                                                Lihat semua</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/kids/shop-by-product/newborn-0-9-months.html">
-                                                Bayi 0-9 bulan</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/kids/shop-by-product/baby-girls-4m-4y.html">
-                                                Bayi Perempuan 4 bulan-4 tahun</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/kids/shop-by-product/baby-boy-4m-4y.html">
-                                                Bayi Laki-laki 4 bulan-4 tahun</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/kids/shop-by-product/girl-18-months-10-years.html">
-                                                Anak Perempuan 1½ -10 tahun</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/kids/shop-by-product/boys-18-months-10-years.html">
-                                                Anak Laki-laki 1½ -10 tahun</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/kids/shop-by-product/boys-8-14-years.html">
-                                                Anak Laki-laki 8-14 + tahun</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/kids/shop-by-product/girls-8-14-years.html">
-                                                Anak Perempuan 8-14 + tahun</a>
-                                            </li>
-                                                                                </ul>
-                                    </div>
-                                                                </div> 
-                                                                                                                            <div class="primary-menu-categories col3">
-                                	
-                                    <div class="primary-menu-category ">
-                                        <div class="sub-sub-heading">Shop by Concept</div>
-                                        <ul>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/kids/shop-by-concept/basics.html">
-                                                Basics</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/kids/shop-by-concept/denim.html">
-                                                Denim</a>
-                                            </li>
-                                                                                </ul>
-                                    </div>
-                                                                </div> 
-                                                                                                                            <div class="primary-menu-categories ">
-                                	
-                                    <div class="primary-menu-category ">
-                                        <div class="sub-sub-heading">H&M ♥ Baby</div>
-                                        <ul>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/kids/h-m-baby/welcome.html">
-                                                Welcome!</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/kids/h-m-baby/pyjamas.html">
-                                                Pyjamas</a>
-                                            </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/kids/h-m-baby/for-babies.html">
-                                                For babies</a>
-                                            </li>
-                                                                                </ul>
-                                    </div>
-                                                                </div> 
-                            
-                        </div>
-                    </div>
-                            </li>
-        			            <li class="main-menu-text">
-                <a  href="https://id.hm.com/id_id/sale.html">Sale</a>
+                <a  href="contact_us.html">Contact Us</a>
                                     <div class="primary-menu-sub-menu">
                         <div class="primary-menu-sub-menu-inner">
                                                                                                                                                                                                                                                                                                                                                                                                                                                             <div class="primary-menu-categories col1">
                                 	
                                     <div class="primary-menu-category ">
-                                        <div class="sub-sub-heading">Wanita</div>
+                                        <div class="sub-sub-heading">Index</div>
                                         <ul>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/sale/ladies/view-all.html">
+                                            <li>
+                                                <a href="">
                                                 Lihat Semua</a>
                                             </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/sale/ladies/divided.html">
+                                            <li>
+                                                <a href="">
                                                 Divided</a>
                                             </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/sale/ladies/basics.html">
+                                            <li>
+                                                <a href="">
                                                 Basics</a>
                                             </li>
-                                                                                    <li>
-                                                <a href="https://id.hm.com/id_id/sale/ladies/modernclassic.html">
+                                            <li>
+                                                <a href="">
                                                 Modern Classic</a>
                                             </li>
                                                                                     <li>
-                                                <a href="https://id.hm.com/id_id/sale/ladies/everydayfashion.html">
+                                                <a href="">
                                                 Everyday Fashion</a>
                                             </li>
                                                                                     <li>
-                                                <a href="https://id.hm.com/id_id/sale/ladies/trend.html">
+                                                <a href="">
                                                 Trend</a>
                                             </li>
                                                                                     <li>
-                                                <a href="https://id.hm.com/id_id/sale/ladies/logg.html">
+                                                <a href="">
                                                 L.O.G.G.</a>
                                             </li>
                                                                                     <li>
-                                                <a href="https://id.hm.com/id_id/sale/ladies/denim.html">
+                                                <a href="">
                                                 Denim</a>
                                             </li>
                                                                                     <li>
-                                                <a href="https://id.hm.com/id_id/sale/ladies/mama.html">
+                                                <a href="">
                                                 Mama</a>
                                             </li>
                                                                                     <li>
-                                                <a href="https://id.hm.com/id_id/sale/ladies/hm.html">
+                                                <a href="">
                                                 H&M+</a>
                                             </li>
                                                                                     <li>
-                                                <a href="https://id.hm.com/id_id/sale/ladies/accessories.html">
-                                                Aksesori</a>
+                                                <a href="">
+                                                Aksesoris</a>
                                             </li>
                                                                                     <li>
-                                                <a href="https://id.hm.com/id_id/sale/ladies/bags.html">
+                                                <a href="">
                                                 Tas</a>
                                             </li>
                                                                                     <li>
-                                                <a href="https://id.hm.com/id_id/sale/ladies/blazers-waistcoats.html">
+                                                <a href="">
                                                 Blazer & Waistcoat</a>
                                             </li>
                                                                                     <li>
-                                                <a href="https://id.hm.com/id_id/sale/ladies/dresses.html">
+                                                <a href="">
                                                 Gaun</a>
                                             </li>
                                                                                     <li>
-                                                <a href="https://id.hm.com/id_id/sale/ladies/sweatshirts-hoodies.html">
+                                                <a href="">
                                                 Sweatshirt & Hoodies</a>
                                             </li>
                                                                                     <li>
-                                                <a href="https://id.hm.com/id_id/sale/ladies/jackets-coats.html">
+                                                <a href="">
                                                 Jacket & Coat</a>
                                             </li>
                                                                                     <li>
-                                                <a href="https://id.hm.com/id_id/sale/ladies/jeans.html">
+                                                <a href="">
                                                 Jeans</a>
                                             </li>
                                                                                     <li>
@@ -1495,7 +1035,7 @@ Masuk Akun/Bergabung</li>
                                                                                                                             <div class="primary-menu-categories col2">
                                 	
                                     <div class="primary-menu-category ">
-                                        <div class="sub-sub-heading">Pria</div>
+                                        <div class="sub-sub-heading">Biodata</div>
                                         <ul>
                                                                                     <li>
                                                 <a href="https://id.hm.com/id_id/sale/men/view-all.html">
@@ -1607,7 +1147,7 @@ Masuk Akun/Bergabung</li>
                                             </li>
                                                                                 </ul>
                                     </div>
-                                                                </div> 
+</div> 
                                                                                                                             <div class="primary-menu-categories col4">
                                 	
                                     <div class="primary-menu-category ">
